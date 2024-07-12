@@ -8,12 +8,21 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "prepare": "simple-git-hooks",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.3.13",
+    "lint-staged": "^15.2.7",
     "nuxt": "^3.12.3",
+    "simple-git-hooks": "^2.11.1",
     "vue": "latest"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }

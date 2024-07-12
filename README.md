@@ -16,6 +16,11 @@ Start the development server on `http://localhost:3000`
 pnpm run dev
 ```
 
+### `Code Generators`
+```bash
+pnpm run generators
+```
+
 ## Production
 
 Build the application for production

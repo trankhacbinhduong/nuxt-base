@@ -20,7 +20,8 @@
     "nuxt": "^3.12.3",
     "plop": "^4.0.1",
     "simple-git-hooks": "^2.11.1",
-    "vue": "latest"
+    "vue": "latest",
+    "zod": "^3.23.8"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

@@ -21,7 +21,8 @@
     "plop": "^4.0.1",
     "simple-git-hooks": "^2.11.1",
     "vue": "latest",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "@nuxt/fonts": "^0.7.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

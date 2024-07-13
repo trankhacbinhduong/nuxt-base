@@ -36,7 +36,7 @@ function useRouteRegistrationActions({ route }) {
   ]
 }
 
-function isValidRoute(route) {
+export function isValidRoute(route) {
   const regex = /^(([a-z0-9]+(-[a-z0-9]+)*)|(\[[^\]]+\]))+(\/(([a-z0-9]+(-[a-z0-9]+)*)|(\[[^\]]+\])))*\.vue$/
   return regex.test(route)
 }
